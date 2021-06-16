@@ -1,0 +1,5 @@
+int solution(int X, int Y, int D) {
+    int num = Y - X;
+    int res = num/D;
+    return num%D == 0? res : res + 1;
+}
