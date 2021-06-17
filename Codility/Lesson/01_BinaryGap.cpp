@@ -6,7 +6,7 @@ int solution(int N)
     n = N % 2;
     N /= 2;
     
-    if (n == 1) { f1++ }
+    if (n == 1) { f1++; }
     if (f1 == 1 && n == 0) { cnt++; }
     else if (f1 == 2){
       if(ret < cnt)
