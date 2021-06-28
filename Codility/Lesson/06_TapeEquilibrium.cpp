@@ -27,5 +27,5 @@ int solution(vector<int> &A) {
             }
         }
 
-return temp;
+    return temp;
 }
